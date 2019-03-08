@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: black;
+}
+
+.header {
+  padding: 15px;
+  text-align: center;
+  background: #122b40;
+}
+
+.header h1 {
+  font-size: 40px;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ddd;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+ul a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+  background-color: black
+  
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+  background-color: black
+  
+}
+
+   img {
+  width: 100%;
+  padding: 20px;
+  
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+ p { 
+  text-indent: 25px;
+  font-style: normal
+ 
+ }
+ 
+ a {
+     color: blue;
+     text-decoration: none
+         
+ }
+ 
+ a:hover{ 
+     color: blueviolet 
+ }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>O'Callaghan Consulting Services Ltd.</h1>
+  
+</div>
+
+    <ul>
+        <li><a href="#Blockchain">Blockchain</a></li>
+        <li><a href="#Autonomous">Autonomous Things</a></li>
+        <li><a href="#Immersive">Immersive Experience</a></li>
+        <li><a href ="http://localhost:8000/Ebusiness1.php"> Purchase Consulting Services</a></li>
+        <li><a href="http://localhost:8000/index.php" style="float:right">Home</a></li>
+    </ul>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card" id="Blockchain">
+      <h2>Blockchain</h2>
+      
+      <img style=" border-radius: 50%" src ='blockchain.png' height = 400>
+      <h4>What is Blockchain?</h4>
+      <p>The Blockchain is an undeniably ingenious invention – the brainchild of a person or group of people known by the pseudonym, Satoshi Nakamoto. But since then, it has evolved into something greater, and the main question every single person is asking is: What is Blockchain?
+       By allowing digital information to be distributed but not copied, blockchain technology created the backbone of a new type of internet. Originally devised for the digital currency, Bitcoin, the tech community has now found other potential uses for the technology.
+      A blockchain is, in the simplest of terms, a time-stamped series of immutable record of data that is managed by cluster of computers not owned by any single entity. Each of these blocks of data (i.e. block) are secured and bound to each other using cryptographic principles (i.e. chain).
+      The blockchain network has no central authority — it is the very definition of a democratized system. Since it is a shared and immutable ledger, the information in it is open for anyone and everyone to see. Hence, anything that is built on the blockchain is by its very nature transparent and everyone involved is accountable for their actions.
+      </p>
+      <p> “Blocks” on the blockchain are made up of digital pieces of information. Specifically, they have three parts:</p>
+      <p> 1. Blocks store information about transactions, say the date, time, and dollar amount of your most recent purchase from Amazon.</p>
+      <p> 2. Blocks store information about who is participating in transactions. A block for your splurge purchase from Amazon would record your name along with Amazon.com, Inc. Instead of using your actual name, your purchase is recorded without any identifying information using a unique “digital signature,” sort of like a username.</p>
+        <p>3. Blocks store information that distinguishes them from other blocks. Much like you and I have names to distinguish us from one another, each block stores a unique code called a “hash” that allows us to tell it apart from every other block. Let’s say you made your splurge purchase on Amazon, but while it’s in transit, you decide you just can’t resist and need a second one. Even though the details of your new transaction would look nearly identical to your earlier purchase, we can still tell the blocks apart because of their unique codes.</p>
+        <p> When a block stores new data it is added to the blockchain. Blockchain, as its name suggests, consists of multiple blocks strung together. In order for a block to be added to the blockchain, however, four things must happen: </p>
+        <p> 1. A transaction must occur. Let’s continue with the example of your impulsive Amazon purchase. After hastily clicking through multiple checkout prompts, you go against your better judgment and make a purchase.</p>
+        <p> 2. That transaction must be verified. After making that purchase, your transaction must be verified. With other public records of information, like the Securities Exchange Commission, Wikipedia, or your local library, there’s someone in charge of vetting new data entries. With blockchain, however, that job is left up to a network of computers.  </p> 
+        <p> 3. That transaction must be stored in a block. After your transaction has been verified as accurate, it gets the green light. The transaction’s dollar amount, your digital signature, and Amazon’s digital signature are all stored in a block.  </p>
+        <p> 4. That block must be given a hash. Not unlike an angel earning its wings, once all of a block’s transactions have been verified, it must be given a unique, identifying code called a hash. The block is also given the hash of the most recent block added to the blockchain. </p>
+        <p> Blockchain has a wide range of uses in very different industries, from banking to voting, where most industries will benefit from its introduction. It is a cost effective, accurate, efficient system that is expected to grow massively in the coming years. </p>
+    
+    
+    </div>
+    <div class="card" id="Autonomous">
+      <h2> Autonomous Things</h2>     
+          <img style=" border-radius: 50%"  src ='auto.jpg' height = 400> 
+      <p> The emergence of autonomous things over the last few years, I believe, has been an exciting development within technology that is only going to become more innovative and more and more exciting as time goes on. Driven by the likes of big data, AI and cloud technologies, I have no doubt that – as these technologies advance – autonomous things are only going to continue to advance at a break neck speed.
+      Autonomous vehicles are constantly collecting data from their environment; such as the road conditions, potential hazards, pedestrians, surrounding vehicles and even storing the routes and roads themselves. In order for these vehicles to become safer they rely on a vast amounts of software and the collection of vast amounts of data to train the artificial intelligence to ensure the safety of their passengers without humans having to intervene. I have read a stat that says these vehicles exchange around 15,000 pieces of data within a tenth of a second, this is a figure that could rise to 200,000 pieces of data by 2020.
+      </p>
+      <p> Self-navigating drones are the first AuT technology in deployment. It is expected that the first mass-deployment of AuT technologies will be the autonomous car, generally expected to be available around 2020. Other currently expected AuT technologies include home robotics (e.g., machines that provide care for the elderly, infirm or young), and military robots (air, land or sea autonomous machines with information-collection or target-attack capabilities).  </p>
+      <p>AuT technologies share many common traits, which justify the common notation. They are all based on recent breakthroughs in the domains of (deep) machine learning and artificial intelligence. They all require extensive and prompt regulatory developments to specify the requirements from them and to license and manage their deployment (see the further reading below). And they all require unprecedented levels of safety (e.g automobile safety) and security, to overcome concerns about the potential negative impact of the new technology.   </p>
+    </div>
+          <div class="card" id="Immersive" >
+      <h2>Immersive Experience</h2>
+      <img style=" border-radius: 50%"  src ='imm.jpg' height = 400> 
+      <p>Immersion into virtual reality is a perception of being physically present in a non-physical world. The perception is created by surrounding the user of the VR system in images, sound or other stimuli that provide an engrossing total environment. 
+The name is a metaphoric use of the experience of submersion applied to representation, fiction or simulation. Immersion can also be defined as the state of consciousness where a "visitor" or "immersant" awareness of physical self is transformed by being surrounded in an artificial environment.It is used for describing partial or complete suspension of disbelief, enabling action or reaction to stimulations encountered in a virtual or artistic environment. The degree to which the virtual or artistic environment faithfully reproduces reality determines the degree of suspension of disbelief. The greater the suspension of disbelief, the greater the degree of presence achieved. </p>
+      <p> Immersive virtual reality is a hypothetical future technology that exists today as virtual reality art projects, for the most part. It consists of immersion in an artificial environment where the user feels just as immersed as they usually feel in consensus reality.   </p>
+      <p> Immersive technology is applied in several areas, including the adult industry, art, entertainment and video games and interactive storytelling, military, education, and medicine. As immersive technology becomes more mainstream, it will likely pervade many other industries.    </p>
+          </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <img style =" height: 200px" src =" no-profile-photo.jpg" >
+       <p> <a href="http://localhost:8000/tiltedpage_scroll_demo.html"> View My Interests </a> </p> 
+       <p> <a href="http://localhost:8000/Resume.html"> View My CV </a> </p>
+    </div>
+    <div class="card">
+      <h3>Popular Images</h3>
+      <img style=" height: 200px" src ='pici1.jpg' > 
+      <img style=" height: 200px" src ='pici2.jpg' > 
+      <img style=" height: 200px" src ='pici3.jpg' > 
+    </div>
+    <div class="card">
+      <h3>Quotes</h3>
+      <p>The blockchain is an incorruptible digital ledger of economic transactions that can be programmed to record not just financial transactions but virtually everything of value.” – Don & Alex Tapscott, authors Blockchain Revolution (2016).</p>
+      <p> The blockchain does one thing: It replaces third-party trust with mathematical proof that something happened. Adam Draper   </p>
+      <p> “You can’t stop things like Bitcoin. It will be everywhere and the world will have to readjust. World governments will have to readjust”
+John McAfee, Founder of McAfee.  </p>
+      <p> “Automated or self-driving vehicles are about to change the way we travel and connect with one another.”
+U.S. Secretary of Transportation Elaine Chao.  </p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <P style=" text-align: left; font-size: 10px"> O'Callaghan Consulting Services Founded 2019</p>
+</div>
+
+</body>
+</html>
