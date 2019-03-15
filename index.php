@@ -71,13 +71,13 @@ img {
 <div class="header">
   <h1>Home</h1>
   <a href='https://github.com/DylanOC21/phpProject10'>Github</a>
-  <a href='https://dashboard.heroku.com/apps/doc118351691/deploy/github'>Heroku</a>
+  <a href=' https://doc118351691.herokuapp.com/'>Heroku</a>
 </div>
 
 <div class="topnav">
-  <a style="margin-left: 200px"  href="http://localhost:8000/Resume.html">CV</a>
-  <a style="margin-left: 410px " href="http://localhost:8000/tiltedpage_scroll_demo.html">Interest</a>
-  <a style="float: right; margin-right: 150px" href="http://localhost:8000/ConsultancyServices.html">Consulting Services</a>
+  <a style="margin-left: 200px"  href="Resume.html">CV</a>
+  <a style="margin-left: 410px " href="tiltedpage_scroll_demo.html">Interest</a>
+  <a style="float: right; margin-right: 150px" href="ConsultancyServices.html">Consulting Services</a>
 </div>
 
 <div class="row">
